@@ -33,12 +33,12 @@ export const socialMediaLinks = SocialMediaLinks(appDetails.slug);
 
 export const heroContent = {
   alert: {
-    text: "New: Twitter Post Automator is here! Check out the latest updates",
+    text: "New: SocialBridge is here! Check out the latest updates",
     label: "New",
   },
-  heading: "Automate Your Twitter Posts Effortlessly",
+  heading: "Automate Your Emails and Tweets Effortlessly",
   subheading:
-    "Our SaaS platform helps you schedule, manage, and optimize your Twitter content with ease.",
+    "Our SaaS platform helps you schedule, manage, and optimize your email and Twitter content with ease.",
   buttonOne: {
     label: "Get Started",
     link: "/register",
@@ -50,11 +50,6 @@ export const heroContent = {
   // featuredIn: {
   //   title: "FEATURED IN",
   //   children: [
-  //     {
-  //       label: "",
-  //       logoUrl: "",
-  //       link: "",
-  //     },
   //     {
   //       label: "",
   //       logoUrl: "",
@@ -84,26 +79,26 @@ export const heroContent = {
 };
 
 export const descriptionContent = {
-  headline: "Let's find more that brings us together.",
+  headline: "Connecting You with Your Audience Seamlessly",
   subheadline:
-    "Twitter Post Automator helps you connect with your audience effortlessly. Discover features that make it easy to manage and optimize your Twitter posts.",
+    "SocialBridge helps you connect with your audience effortlessly. Discover features that make it easy to manage and optimize your email and Twitter posts.",
 };
 
 export const benefitsContent = {
-  title: "Let's create more tools and ideas that bring us together.",
+  title: "Bringing Communication and Automation Together",
   description:
-    "The Twitter Post Automator helps you connect with your audience more effectively, streamlining your social media management with features designed to enhance your engagement and productivity.",
+    "SocialBridge helps you connect with your audience more effectively, streamlining your social media and email management with features designed to enhance your engagement and productivity.",
   benefits: [
     {
       title: "Automated Posting",
       description:
-        "Schedule and automate your tweets to keep your Twitter feed active even when you're not online.",
+        "Schedule and automate your tweets and emails to keep your communication channels active even when you're not online.",
       icon: <AiOutlineRetweet size="3rem" />,
     },
     {
       title: "Engagement Tracking",
       description:
-        "Monitor engagement metrics and track the performance of your posts with ease.",
+        "Monitor engagement metrics and track the performance of your emails and tweets with ease.",
       icon: <AiOutlineMessage size="3rem" />,
     },
     {
@@ -115,7 +110,7 @@ export const benefitsContent = {
     {
       title: "Content Calendar",
       description:
-        "Manage and plan your Twitter content with an integrated calendar view for better organization.",
+        "Manage and plan your email and Twitter content with an integrated calendar view for better organization.",
       icon: <AiOutlineCalendar size="3rem" />,
     },
   ],
@@ -123,12 +118,13 @@ export const benefitsContent = {
 
 export const featuresDetails = {
   title: "Designed for business teams like yours",
-  description: "Here at Twitter Post Automator, we focus on technology and innovation to unlock long-term value and drive growth for your Twitter strategy.",
+  description:
+    "Here at SocialBridge, we focus on technology and innovation to unlock long-term value and drive growth for your communication strategy.",
   features: [
     {
-      title: "Automate Posts",
+      title: "Automate Posts and Emails",
       description:
-        "Schedule and automate your Twitter posts effortlessly with our intuitive interface.",
+        "Schedule and automate your Twitter posts and emails effortlessly with our intuitive interface.",
       icon: AiOutlineSend,
     },
     {
@@ -140,7 +136,7 @@ export const featuresDetails = {
     {
       title: "Advanced Analytics",
       description:
-        "Gain insights with advanced analytics and track the performance of your Twitter campaigns.",
+        "Gain insights with advanced analytics and track the performance of your Twitter and email campaigns.",
       icon: AiOutlineHome,
     },
     {
@@ -152,7 +148,7 @@ export const featuresDetails = {
     {
       title: "Innovative Features",
       description:
-        "Access cutting-edge tools and features designed to enhance your Twitter strategy.",
+        "Access cutting-edge tools and features designed to enhance your communication strategy.",
       icon: AiOutlineBulb,
     },
     {
@@ -166,7 +162,6 @@ export const featuresDetails = {
 
 export const ctaContent = {
   title: "Start your free trial today",
-  description:
-    "Try Twitter Post Automator for 30 days. No credit card required.",
+  description: "Try SocialBridge for 30 days. No credit card required.",
   ctaButton: "Free trial for 30 days",
 };
