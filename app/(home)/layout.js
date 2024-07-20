@@ -1,8 +1,11 @@
-import { appDetails, seoDetails } from "@/constants/home_pages";
 import React from "react";
+import { appDetails, seoDetails } from "@/constants/home_pages";
+import { Box } from "@chakra-ui/react";
+import HeaderSection from "@/sections/home/HeaderSection";
+import FooterSection from "@/sections/home/FooterSection";
 
 export const metadata = {
-  title: appDetails.title,
+  title: appDetails.name,
   description: appDetails.description,
   keywords: "",
   metadataBase: seoDetails.metadataBase,
@@ -14,9 +17,14 @@ export const metadata = {
   },
   publisher: seoDetails.publisher,
 };
-
 const Layout = ({ children }) => {
-  return { children };
+  return (
+    <Box>
+      <HeaderSection />
+      {children}
+      <FooterSection />
+    </Box>
+  );
 };
 
 export default Layout;
