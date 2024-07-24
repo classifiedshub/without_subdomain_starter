@@ -20,9 +20,16 @@ import Link from "next/link";
 import theme from "@/context/theme/theme";
 
 const Footer1 = () => {
+  const year = new Date().getFullYear();
   return (
-    <Box px={4} py={8} color="white" bg={theme.colors.primary[500]} fontSize={{base: "sm", lg: "md"}}>
-      <Container maxW="container.xl"> 
+    <Box
+      px={4}
+      py={8}
+      color="white"
+      bg={theme.colors.primary[500]}
+      fontSize={{ base: "sm", lg: "md" }}
+    >
+      <Container maxW="container.xl">
         <Flex
           direction={{ base: "column", md: "row" }}
           justify="space-between"
@@ -78,7 +85,7 @@ const Footer1 = () => {
           align="center"
         >
           <Text color={useColorModeValue("gray.500", "gray.400")}>
-            © 2022 &nbsp;
+            © {year}&nbsp; 
             <Link href="/" title="Home">
               {appDetails.name}™
             </Link>

@@ -74,6 +74,7 @@ const theme = extendTheme({
   fonts: {
     heading: "'Roboto', sans-serif",
     body: "'Inter', sans-serif",
+    logo: "'Montserrat', sans-serif"
   },
 
   // Global styles

@@ -30,7 +30,18 @@ const Header3 = () => {
         mx="auto"
       >
         <Flex alignItems="center">
-          <LogoSection />
+        <IconButton
+          icon={isOpen ? <MdCancel /> : <MdMenu />}
+          onClick={isOpen ? onClose : onOpen}
+          display={{ lg: "none" }}
+          aria-label="Toggle navigation"
+          variant="ghost"
+          color="white"
+          _hover={{
+            bg: "transparent"
+          }}
+        />
+          <LogoSection logoSize="lg"/>
         </Flex>
         <Stack
           as="nav"
@@ -94,17 +105,7 @@ const Header3 = () => {
             </Link>
           </HStack>
         </Flex>
-        <IconButton
-          icon={isOpen ? <MdCancel /> : <MdMenu />}
-          onClick={isOpen ? onClose : onOpen}
-          display={{ lg: "none" }}
-          aria-label="Toggle navigation"
-          variant="ghost"
-          color="white"
-          _hover={{
-            bg: "transparent"
-          }}
-        />
+        
       </Flex>
 
       {isOpen && (

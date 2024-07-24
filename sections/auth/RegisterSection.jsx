@@ -6,7 +6,7 @@ const RegisterSection = () => {
   return (
     <>
       <RegisterForm1 />
-      <RegisterForm2 />
+      {/* <RegisterForm2 /> */}
     </>
   );
 };

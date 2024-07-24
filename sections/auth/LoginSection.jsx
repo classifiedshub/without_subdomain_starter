@@ -6,7 +6,7 @@ const LoginSection = () => {
   return (
     <>
     <LoginForm1/>
-    <LoginForm2/>
+    {/* <LoginForm2/> */}
     </>
   )
 }
